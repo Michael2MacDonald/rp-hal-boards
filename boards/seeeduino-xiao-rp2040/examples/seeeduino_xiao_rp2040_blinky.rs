@@ -14,7 +14,7 @@
 use seeeduino_xiao_rp2040::entry;
 
 // GPIO traits
-use embedded_hal::digital::v2::OutputPin;
+use embedded_hal::digital::OutputPin;
 use embedded_hal::PwmPin;
 
 // Ensure we halt the program on panic (if we don't mention this crate it won't
