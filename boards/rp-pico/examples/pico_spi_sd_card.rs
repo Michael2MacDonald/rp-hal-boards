@@ -132,7 +132,7 @@ const BLINK_ERR_5_SHORT: [u8; 10] = [1u8, 0u8, 1u8, 0u8, 1u8, 0u8, 1u8, 0u8, 1u8
 const BLINK_ERR_6_SHORT: [u8; 12] = [1u8, 0u8, 1u8, 0u8, 1u8, 0u8, 1u8, 0u8, 1u8, 0u8, 1u8, 0u8];
 
 fn blink_signals(
-    pin: &mut dyn embedded_hal::digital::v2::OutputPin<Error = core::convert::Infallible>,
+    pin: &mut dyn embedded_hal::digital::OutputPin<Error = core::convert::Infallible>,
     delay: &mut dyn DelayMs<u32>,
     sig: &[u8],
 ) {
@@ -156,7 +156,7 @@ fn blink_signals(
 }
 
 fn blink_signals_loop(
-    pin: &mut dyn embedded_hal::digital::v2::OutputPin<Error = core::convert::Infallible>,
+    pin: &mut dyn embedded_hal::digital::OutputPin<Error = core::convert::Infallible>,
     delay: &mut dyn DelayMs<u32>,
     sig: &[u8],
 ) -> ! {

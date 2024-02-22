@@ -19,7 +19,7 @@
 
 // These are the traits we need from Embedded HAL to treat our hardware
 // objects as generic embedded devices.
-use embedded_hal::{digital::v2::OutputPin, serial::Write as UartWrite};
+use embedded_hal::{digital::OutputPin, serial::Write as UartWrite};
 
 // The writeln! trait.
 use core::fmt::Write;

@@ -13,7 +13,7 @@
 //! #![no_main]
 //! use rp_pico::entry;
 //! use panic_halt as _;
-//! use embedded_hal::digital::v2::OutputPin;
+//! use embedded_hal::digital::OutputPin;
 //! use rp_pico::hal::pac;
 //! use rp_pico::hal;
 

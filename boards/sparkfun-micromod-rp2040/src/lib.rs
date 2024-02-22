@@ -13,7 +13,7 @@
 //! #![no_main]
 //! use sparkfun_micromod_rp2040::entry;
 //! use panic_halt as _;
-//! use embedded_hal::digital::v2::OutputPin;
+//! use embedded_hal::digital::OutputPin;
 //! use sparkfun_micromod_rp2040::hal::pac;
 //! use sparkfun_micromod_rp2040::hal;
 

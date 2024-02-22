@@ -18,7 +18,7 @@
 // These are the traits we need from Embedded HAL to treat our hardware
 // objects as generic embedded devices.
 use embedded_hal::{
-    digital::v2::OutputPin,
+    digital::OutputPin,
     serial::{Read, Write},
 };
 
