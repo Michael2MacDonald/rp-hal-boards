@@ -26,8 +26,8 @@ use embedded_graphics::{
 };
 use embedded_hal::{
     adc::{Channel, OneShot},
-    blocking::delay::DelayUs,
-    digital::v2::{InputPin, OutputPin},
+    delay::DelayUs,
+    digital::{InputPin, OutputPin},
     spi::MODE_0,
 };
 use fugit::RateExtU32;

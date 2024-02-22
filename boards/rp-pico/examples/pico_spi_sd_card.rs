@@ -100,8 +100,8 @@ use embedded_sdmmc::{SdCard, TimeSource, Timestamp, VolumeIdx, VolumeManager};
 // Get the file open mode enum:
 use embedded_sdmmc::filesystem::Mode;
 
-use embedded_hal::blocking::delay::DelayMs;
-use embedded_hal::blocking::delay::DelayUs;
+use embedded_hal::delay::DelayMs;
+use embedded_hal::delay::DelayUs;
 
 /// A dummy timesource, which is mostly important for creating files.
 #[derive(Default)]

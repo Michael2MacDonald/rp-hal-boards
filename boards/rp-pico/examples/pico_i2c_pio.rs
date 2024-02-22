@@ -18,7 +18,7 @@ use core::fmt::Write as FmtWrite;
 use rp_pico::entry;
 
 // I2C HAL traits & Types.
-use embedded_hal::blocking::i2c::{Operation, Read, Transactional, Write};
+use embedded_hal::i2c::{Operation, Read, Transactional, Write};
 
 // Time handling traits
 use fugit::RateExtU32;
