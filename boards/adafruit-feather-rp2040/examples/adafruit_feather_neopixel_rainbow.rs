@@ -27,6 +27,7 @@ use ws2812_pio::Ws2812Direct;
 #[entry]
 fn main() -> ! {
     let mut pac = pac::Peripherals::take().unwrap();
+    let core = pac::CorePeripherals::take().unwrap();
 
     let mut watchdog = Watchdog::new(pac.WATCHDOG);
 
