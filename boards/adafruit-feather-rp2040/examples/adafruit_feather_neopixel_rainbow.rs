@@ -61,7 +61,7 @@ fn main() -> ! {
         pins.neopixel.into_function(),
         &mut pio,
         sm0,
-        clocks.peripheral_clock.freq()
+        clocks.peripheral_clock.freq(),
     );
 
     // Infinite colour wheel loop
