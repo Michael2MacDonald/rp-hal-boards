@@ -15,7 +15,7 @@ cortex-m.workspace = true
 rp2040-boot2 = { workspace = true, optional = true }
 rp2040-hal.workspace = true
 cortex-m-rt = { workspace = true, optional = true }
-embedded-hal.workspace = true
+embedded-hal = "0.2.7"
 nb.workspace = true
 
 [dev-dependencies]

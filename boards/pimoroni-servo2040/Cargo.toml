@@ -18,7 +18,7 @@ rp2040-hal.workspace = true
 [dev-dependencies]
 defmt.workspace = true
 defmt-rtt.workspace = true
-embedded-hal.workspace = true
+embedded-hal = "0.2.7"
 fugit.workspace = true
 nb.workspace = true
 panic-halt.workspace = true
